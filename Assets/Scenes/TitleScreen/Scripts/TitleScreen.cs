@@ -5,6 +5,7 @@ using UnityEngine;
 public class TitleScreen : MonoBehaviour
 {
     public Texture backgroundTexture;
+    
     private void OnGUI()
     {
         // Display Background Texture

@@ -7,7 +7,7 @@ public class bttnNextScene : MonoBehaviour {
 
 	public void changeScene(int sceneNumber)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneNumber);
         //Application.LoadLevel(sceneNumber);
     }
 }

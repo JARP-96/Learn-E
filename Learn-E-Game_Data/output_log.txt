@@ -17,14 +17,20 @@ Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Da
 Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.142 seconds
+- Completed reload, in  0.126 seconds
 Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\Learn-E-Game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.627042 ms
+UnloadTime: 1.296235 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.380573 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 277.
+Total: 0.668695 ms (FindLiveObjects: 0.040778 ms CreateObjectMapping: 0.035115 ms MarkObjects: 0.385510 ms  DeleteObjects: 0.206159 ms)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1f60 -> priority: 1 
-  Thread -> id: 28e8 -> priority: 1 
+  Thread -> id: 30a0 -> priority: 1 
+  Thread -> id: 2fb4 -> priority: 1 

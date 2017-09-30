@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bttnNextScene : MonoBehaviour {
 
-	public void changeScene(string sceneName)
+	public void changeScene(int sceneNumber)
     {
-        Application.LoadLevel(sceneName);
+        SceneManager.LoadScene(1);
+        //Application.LoadLevel(sceneNumber);
     }
 }

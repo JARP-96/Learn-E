@@ -1,11 +1,11 @@
 fileFormatVersion: 2
 guid: a8ccb6fd3cedecf4d81f2ad1ce1a631d
-timeCreated: 1505755122
+timeCreated: 1506803199
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: signPole
-    21300002: signHome
+    21300002: signHouse
     21300004: signSchool
     21300006: signCountry
     21300008: signCity
@@ -96,7 +96,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: signHome
+      name: signHouse
       rect:
         serializedVersion: 2
         x: 315

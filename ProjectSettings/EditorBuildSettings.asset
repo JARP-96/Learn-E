@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MemoryGameScene/MemoryGameScene.unity
+    guid: a105796d8b21f5040b041f814dbb0f4f
+  - enabled: 1
     path: Assets/Scenes/TitleScreen/TitleScreen.unity
     guid: 92460a5e19c0f5d49b6a1f655f87e52b
   - enabled: 1
@@ -20,6 +23,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BedroomScreen/BedroomScene.unity
     guid: 248f706a492753b4ca31d1f52c4becbe
-  - enabled: 1
-    path: Assets/Scenes/MemoryGameScene/MemoryGameScene.unity
-    guid: a105796d8b21f5040b041f814dbb0f4f

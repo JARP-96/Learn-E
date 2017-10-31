@@ -1,0 +1,54 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8494
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.256 seconds
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\JARP-Laptop\Documents\GitHub\Learn-E\baj_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.107120 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 131.604614 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 0.576189 ms (FindLiveObjects: 0.030206 ms CreateObjectMapping: 0.023410 ms MarkObjects: 0.371918 ms  DeleteObjects: 0.149522 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.075239 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 341.
+Total: 0.571658 ms (FindLiveObjects: 0.033982 ms CreateObjectMapping: 0.026808 ms MarkObjects: 0.356814 ms  DeleteObjects: 0.150277 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.724956 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 1.137653 ms (FindLiveObjects: 0.100814 ms CreateObjectMapping: 0.039268 ms MarkObjects: 0.904308 ms  DeleteObjects: 0.089486 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.251305 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.362100 ms (FindLiveObjects: 0.029073 ms CreateObjectMapping: 0.022654 ms MarkObjects: 0.280165 ms  DeleteObjects: 0.029451 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1494 -> priority: 1 
+  Thread -> id: 3208 -> priority: 1 

@@ -19,9 +19,8 @@ public class GameManager : MonoBehaviour
     {
         if (!_init)
             initializeCards();
-        if (Input.GetMouseButtonUp(0))
+		if (Input.GetMouseButtonUp(0) && !Card.DO_NOT)
             checkCards();
-
     }
     void initializeCards()
     {
@@ -57,30 +56,32 @@ public class GameManager : MonoBehaviour
     }
     void checkCards()
     {
+		Card.DO_NOT = true;
         List<int> c = new List<int>();
 
         for (int i = 0; i < cards.Length; i++)
         {
-            if (cards[i].GetComponent<Card>().state == 1)
+			if (cards[i].GetComponent<Card>().state == CardState.FRONT)
                 c.Add(i);
         }
-        if (c.Count == 2)
-            cardComparison(c);
-
+		if (c.Count == 2)
+			cardComparison (c);
+		else
+			Card.DO_NOT = false;
     }
     void cardComparison(List<int> c)
     {
-        Card.DO_NOT = true;
+		Card.DO_NOT = true;
 
-        int x = 0;
+		CardState x = CardState.BACK;
 
         if (cards[c[0]].GetComponent<Card>().cardValue == cards[c[1]].GetComponent<Card>().cardValue)
         {
-            x = 2;
+			x = CardState.SOLVED;
             matches--;
             matchText.text = "Number of Pairs:" + matches;
             if (matches == 0)
-                SceneManager.LoadScene("TitleScreen");
+                SceneManager.LoadScene(8);
         }
         for (int i = 0; i < c.Count; i++)
         {

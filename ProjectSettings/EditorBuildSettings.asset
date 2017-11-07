@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScreen/LoginScreen.unity
     guid: bedd1729489b2a64db1bd034c4f72b35
   - enabled: 1
+    path: Assets/Scenes/CharacterCreationScene/CharacterCreationScene.unity
+    guid: ad7d103dd6cfe234d885243073aa5d10
+  - enabled: 1
+    path: Assets/Scenes/CharacterCreationScene/CharacterCreationScene1.unity
+    guid: e077d8240e9b2d045820bab40ec0775c
+  - enabled: 1
     path: Assets/Scenes/WhereToGoScreen/WhereToGoScreen.unity
     guid: ff5e43201dbacb245afd3110a944f427
   - enabled: 1
@@ -23,3 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MemoryGameScene/MemoryGameScene.unity
     guid: a105796d8b21f5040b041f814dbb0f4f
+  - enabled: 1
+    path: Assets/Scenes/ProfileScene/ProfileScene.unity
+    guid: 073debad35a88684a9be9177bfe72cfb
+  - enabled: 0
+    path: Assets/Scenes/WordGame/WordGame/scene.unity
+    guid: 2dc9806c17055494a85ed5f917a4ee70

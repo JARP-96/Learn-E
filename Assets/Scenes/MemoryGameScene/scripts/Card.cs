@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
-
+// INTERFAZ PROXY
     public static bool DO_NOT = false;
 
     [SerializeField]
-    private int _state;
+    private CardState _state;
     [SerializeField]
     private int _cardvalue;
     [SerializeField]
@@ -20,9 +20,10 @@ public class Card : MonoBehaviour
 
     private GameObject _manager;
 
+// FIN INTERFAZ
     void Start()
     {
-        _state = 1;
+		_state = CardState.FRONT;
         _manager = GameObject.FindGameObjectWithTag("Manager");
     }
     public void setupGraphics()
@@ -34,14 +35,16 @@ public class Card : MonoBehaviour
     }
     public void flipCard()
     {
-        if (_state == 0)
-            _state = 1;
-        else if (_state == 1)
-            _state = 0;
-        if (_state == 0 && !DO_NOT)
-            GetComponent<Image>().sprite = _cardBack;
-        else if (_state == 1 && !DO_NOT)
-            GetComponent<Image>().sprite = _cardFace;
+		if (!DO_NOT) {
+			if (_state == CardState.BACK)
+				_state = CardState.FRONT;
+			else if (_state == CardState.FRONT)
+				_state = CardState.BACK;
+			if (_state == CardState.BACK)
+				GetComponent<Image> ().sprite = _cardBack;
+			else if (_state == CardState.FRONT)
+				GetComponent<Image> ().sprite = _cardFace;
+		}
     }
 
     public int cardValue
@@ -49,7 +52,7 @@ public class Card : MonoBehaviour
         get { return _cardvalue; }
         set { _cardvalue = value; }
     }
-    public int state
+	public CardState state
     {
         get { return _state; }
         set { _state = value; }
@@ -65,11 +68,13 @@ public class Card : MonoBehaviour
     }
     IEnumerator pause()
     {
-        yield return new WaitForSeconds(1);
-        if (_state == 0)
-            GetComponent<Image>().sprite = _cardBack;
-        else if (_state == 1)
-            GetComponent<Image>().sprite = _cardFace;
-        DO_NOT = false;
+		if (_state != CardState.SOLVED) {
+			yield return new WaitForSeconds (1);
+			if (_state == CardState.BACK)
+				GetComponent<Image> ().sprite = _cardBack;
+			else if (_state == CardState.FRONT)
+				GetComponent<Image> ().sprite = _cardFace;
+		}
+			DO_NOT = false;
     }
 }
